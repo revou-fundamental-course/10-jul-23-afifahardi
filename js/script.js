@@ -20,8 +20,8 @@ function hitung(){
             keterangan = "Kelebihan Berat Badan <br> Pertimbangkan untuk mengurangi berat badan dengan sehat.";
         }else if((bmi >= 18.5)&(bmi <= 25)){
             keterangan ="Normal <br> Anda berada dalam rentang berat badan yang sehat.";
-        }else if((bmi >= 17)&(bmi <= 18.5)){
-            keterangan ="kekurangan berat badan <br> Pertimbangkan untuk meningkatkan berat badan dengan sehat.";
+        }else{
+            keterangan = "kekurangan berat badan <br> Pertimbangkan untuk meningkatkan berat badan dengan sehat.";
         }
 
         document.getElementById('bmi').innerHTML = "BMI Anda : " + bmi.toFixed(1);
